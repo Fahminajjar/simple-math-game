@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="KidsXl.exe" version="1.0.0.0" publicKeyToken="f51ab8422e03e707" language="en-US" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="KidsXl" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="KidsXl.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KidsXl.exe" size="667648">
+      <assemblyIdentity name="KidsXl" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>V5TRe6RQggLvpU4JeQD5RJ7z5O8TuvaoWexyTFFWBUw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="KidsXl.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="logo.ico" size="37459">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oiTGL+IqOdLMuFwy7n15cX9rrXivsh/fYolmppE8W84=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=FAHMI-PC\Fahminajjar" issuerKeyHash="16c0afef9f3d05b2b4c7b71da473aa25603b3839" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>nkvitTKOcWwvXR/IUN+T3pz727p7ho26HtkPggkzfZE=</DigestValue></Reference></SignedInfo><SignatureValue>NK1iluJYh81kihTa+0V9rjLLP21WUH8ooQrLYyas+fdSkbP9B8kwwj1XunzjJISAsBiSp75cAwxnbrNYzuQKsNp7CrbyqGqqr01uu/dLWKlm7nNfRoqu1IRzA86qWcUr152ARHxOe9Euwij0bodvr/2IeZKmsiVpnUf8rzlvmPs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rVh1B3jXQecOOflu+8bIxLzBZ4q+R35HMga6pLp3Mv0Ybeije8blZLOdapQukzAubc7eIOFeMf4bTTitnniomntJQ9QA2xSQCmgVie9eDKlCbokDqpriQyl/D2FWad1BQ8IOqG6P5/ydT/PndBaP1r4dFCfUsvun+2STiQyCji8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="917d3309820fd91eba8d867bbadbfb9cde93df50c81f5d2f6c718e32b5e24b9e" Description="" Url=""><as:assemblyIdentity name="KidsXl.exe" version="1.0.0.0" publicKeyToken="f51ab8422e03e707" language="en-US" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=FAHMI-PC\Fahminajjar</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XTRaPBA6/0bc6NB4IZuSCMgDORv87Cvpu9rW8Qfz54M=</DigestValue></Reference></SignedInfo><SignatureValue>ig7uN/pHetdxfZ/DOmtdTHQCqgGWjJOht6rAZD+kYJJNkwKwyyV+bPuGdzxJDN/cdbb6E0ElN/Npz94/lzXEXOWFtc+4tFmFvD3BJPIwIy9voZGqJM2V68UGaJEIuet8vS3pbe4m+186qtFVc29md+krStz7OvpzxN9EgyWO8I8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rVh1B3jXQecOOflu+8bIxLzBZ4q+R35HMga6pLp3Mv0Ybeije8blZLOdapQukzAubc7eIOFeMf4bTTitnniomntJQ9QA2xSQCmgVie9eDKlCbokDqpriQyl/D2FWad1BQ8IOqG6P5/ydT/PndBaP1r4dFCfUsvun+2STiQyCji8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQZi7iCpG7srhPq0Im6vcqUzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARgBBAEgATQBJAC0AUABDAFwARgBhAGgAbQBpAG4AYQBqAGoAYQByMB4XDTE1MDEwMjE1NDYxOFoXDTE2MDEwMjIxNDYxOFowMzExMC8GA1UEAx4oAEYAQQBIAE0ASQAtAFAAQwBcAEYAYQBoAG0AaQBuAGEAagBqAGEAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArVh1B3jXQecOOflu+8bIxLzBZ4q+R35HMga6pLp3Mv0Ybeije8blZLOdapQukzAubc7eIOFeMf4bTTitnniomntJQ9QA2xSQCmgVie9eDKlCbokDqpriQyl/D2FWad1BQ8IOqG6P5/ydT/PndBaP1r4dFCfUsvun+2STiQyCji8CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCUY1VnqVtWWr9iA8XBSEHlwlg3Pepng43ZYYnfnRK0/B1UjkYoIq4hU9dqPkOkcOdjk4GCK9qcCo1C9SaEVTzXHraFOEbP3DvTgxhtqIem4OjwEuA2VcD/zzwOg5wkECDNf3s9A6akg7qnPnPr4o7ykhgZCwutyvO3TMdA6mzuzw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,14 @@
+C:\Projects\C# Assignments\KidsXl\KidsXl\bin\Debug\KidsXl.exe.config
+C:\Projects\C# Assignments\KidsXl\KidsXl\bin\Debug\KidsXl.exe
+C:\Projects\C# Assignments\KidsXl\KidsXl\bin\Debug\KidsXl.pdb
+C:\Projects\C# Assignments\KidsXl\KidsXl\obj\Debug\KidsXl.csprojResolveAssemblyReference.cache
+C:\Projects\C# Assignments\KidsXl\KidsXl\obj\Debug\KidsXl.Form1.resources
+C:\Projects\C# Assignments\KidsXl\KidsXl\obj\Debug\KidsXl.Properties.Resources.resources
+C:\Projects\C# Assignments\KidsXl\KidsXl\obj\Debug\KidsXl.csproj.GenerateResource.Cache
+C:\Projects\C# Assignments\KidsXl\KidsXl\obj\Debug\KidsXl.exe
+C:\Projects\C# Assignments\KidsXl\KidsXl\obj\Debug\KidsXl.pdb
+C:\Projects\C# Assignments\KidsXl\KidsXl\obj\Debug\KidsXl.home.resources
+C:\Projects\C# Assignments\KidsXl\KidsXl\bin\Debug\KidsXl.exe.manifest
+C:\Projects\C# Assignments\KidsXl\KidsXl\bin\Debug\KidsXl.application
+C:\Projects\C# Assignments\KidsXl\KidsXl\obj\Debug\KidsXl.exe.manifest
+C:\Projects\C# Assignments\KidsXl\KidsXl\obj\Debug\KidsXl.application
